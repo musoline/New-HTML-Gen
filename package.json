@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "compile-sass": "^1.1.3",
+    "node-sass": "^6.0.1"
+  },
+  "name": "new-html-gen",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss-compile": "node-sass -rw assets/scss -o public/assets/css",
+    "watch": "npm run scss-compile"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

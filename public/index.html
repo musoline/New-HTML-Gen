@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script
+      src="https://kit.fontawesome.com/ea46096af7.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <div id="builder">
+      <div
+        id="target"
+        class="builder-visualisator vertical"
+        ondrop="drop_handler(event)"
+        ondragover="dragover_handler(event)"
+      ></div>
+    </div>
+    <div id="builder-tools">
+      <div
+        class="build-tool"
+        id="header"
+        data-name="header"
+        draggable="true"
+      ></div>
+      <div
+        class="build-tool"
+        id="container"
+        data-name="container"
+        draggable="true"
+      ></div>
+      <div class="build-tool" id="div" data-name="div" draggable="true"></div>
+      <div
+        class="build-tool"
+        id="section"
+        data-name="section"
+        draggable="true"
+      ></div>
+      <div
+        class="build-tool"
+        id="section3"
+        data-name="section"
+        draggable="true"
+      ></div>
+    </div>
+
+    <div class="edit"></div>
+
+    <script></script>
+
+    <script src="./assets/js/dragger.js"></script>
+  </body>
+</html>
